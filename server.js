@@ -66,7 +66,7 @@ function seedUserCollection (){
         },{
             name: 'Rich Dad Poor Dad',
             description: "Rich Dad Poor Dad is a 1997 book written by Robert Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy (financial education), financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence (financial IQ).",
-            image: 'https://images-na.ssl-images-amazon.com/images/I/51L54hW47kS._SX322_BO1,204,203,200_.jpg',
+            image: 'https://images-na.ssl-images-amazon.com/images/I/51wOOMQ+F3L._SY344_BO1,204,203,200_.jpg',
         }]
     })
 
@@ -88,7 +88,8 @@ function seedUserCollection (){
     fadiaBooks.save();
 }
 
-seedUserCollection();
+// seedUserCollection();
+
 
 server.get('/books',booksHandler);
 
